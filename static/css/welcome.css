@@ -1,0 +1,344 @@
+.welcome{
+
+}
+.header,.wrap1,.wrap2{
+  max-width:1180px;
+  margin:0 auto;
+}
+.header{
+  height: 60px;
+  background: #FFFFFF;
+}
+.header .navLeft .logo{
+  display:block;
+  float: left;
+  margin-top: 15px;
+  width: 90.23px;
+}
+.header .navLeft .logo img{
+  display:block;
+  float:left;
+}
+.header .navLeft .logo img:first-child{
+  width:38.73px;
+}
+.header .navLeft .logo img:last-child{
+  width:49.71px;
+}
+.header .navLeft{
+  width:52.8%;
+  float:left;
+}
+.header .navLeft ul{
+  width:71.91%;
+  float:left;
+  margin-left:13.6%;
+}
+.header .navLeft ul li{
+  line-height:60px;
+  float:left;
+  font-family:'PingFang SC';
+  font-size:16px;
+  color:#606266;
+  text-align: left;
+  margin-right:7%;
+}
+.header .navLeft ul .otherNav1,.header .navLeft ul .otherNav2{
+  position:relative;
+}
+.header .navLeft ul li .navDialog1{
+  position: absolute;
+  height: 317px;
+  width: 381px;
+  left: 0px;
+  top: 10px;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 2px 0px 4px 0px;
+  background:#fff;
+}
+.header .navLeft ul li .navDialog2{
+  position: absolute;
+  width: 381px;
+  height: 317px;
+  left: 0px;
+  top: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.header .navLeft ul li:last-child{
+  margin-right:0;
+}
+.header .navLeft ul li a{
+  color:#606266;
+}
+.header .navLeft ul li a .icon{
+  display: block;
+  float:right;
+  line-height:54px;
+  margin-left:5px;
+}
+.header .navRight{
+  line-height:60px;
+  float:right;
+}
+.header .navRight .navContact{
+  position:relative;
+  float:left;
+}
+.header .navRight img{
+  width:10.68px;
+  height:10.68px;
+  position:absolute;
+  top:2px;
+  left:-13px;
+  bottom:0;
+  margin:auto;
+}
+.header .navRight span{
+  color:#000000;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  display:block;
+  margin-right:16px;
+}
+.header .navRight .merchantLogin{
+  border-radius: 4px;
+  padding: 7px 20px 7px 20px;
+  background: #4877F0;
+  color:#fff;
+  font-size:12px;
+  cursor:pointer;
+  margin-right:16px;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}
+.header .navRight .freeTrial{
+  border-radius: 4px;
+  padding: 7px 20px 7px 20px;
+  background: #fff;
+  color:#4877F0;
+  border:1px solid #4877F0;
+  cursor:pointer;
+  font-family:'Noto Sans SC';
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}
+.wrap1 h2,.wrap2 h2,.wrap3 h2,.wrap4 h2,.wrap5 h2,.wrap6 h2{
+  font-family: 'PingFang SC';
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height:56px;
+  color: #303133;
+  text-align: center;
+}
+.wrap1{
+  position:relative;
+  /* height:740px; */
+  margin:21px auto 0;
+  text-align: center;
+}
+.wrap1 h2{
+  position:absolute;
+  top:37px;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.wrap1 img{
+  /* width:100%;
+  height:auto !important; */
+  display: inline-block;
+  height: auto;
+  max-width: 100%
+}
+.wrapOther1 .banner{
+  width:100%;
+  height:440px;
+  position:relative;
+}
+.wrapOther1 .banner .pagination{
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.wrapOther1 .banner .pagination .swiper-pagination-switch{
+  display: inline-block;
+  width: 15px;
+  height: 6px;
+  background: #555;
+  margin: 0 5px;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: width 0.5s;
+  -moz-transition: width 0.5s; /* Firefox 4 */
+  -webkit-transition: width 0.5s; /* Safari 和 Chrome */
+  -o-transition: width 0.5s; /* Opera */
+}
+.swiper-active-switch{
+  width:34px !important;
+  height:6px;
+  display:block;
+  background:#fff !important;
+}
+
+.wrapOther1 .banner .swiper-slide img{
+  width:fill-available;
+  width:-webkit-fill-available;
+  height:auto !important;
+}
+.wrapOther2{
+  margin:38px auto;
+}
+.wrapOther2 .cooperationList{
+  width:1180px;
+  height:166px;
+  margin:0 auto;
+}
+.wrapOther2 .cooperationList ul{
+  padding:41px 0 35px 0 !important;
+  line-height:146px;
+}
+.wrapOther2 .cooperationList ul li{
+  width:220px !important;
+  height:90px;
+  text-align: center;
+  margin:0 7.375px;
+}
+.wrapOther2 .cooperationList ul li img{
+  width: 65%;
+  max-width: 65%;
+  
+}
+.wrap2 h3{
+  width:78.9%;
+  font-family: 'PingFang SC';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin:9px auto 0;
+}
+.wrap2 ul{
+  width:1170px;
+  height:122px;
+  margin:46px auto 0;
+  box-shadow: 0px 0px 15px 0px #0000001A;
+}
+.wrap2 ul li{
+  width:152.38px;
+  height:122px;
+  float:left;
+  text-align: center;
+  margin-right:-7px;
+}
+.wrap2 ul li:last-child{
+  margin-right:0;
+}
+.wrap2 ul li span{
+  font-family: 'PingFang SC';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  display:block;
+  margin-top:13.8px;
+}
+.wrap2 ul li img{
+  display:block;
+  margin: 0 auto;
+}
+.wrap2 .wrap2Content{
+  width:1180px;
+  /* height:433px; */
+  margin-top:79px;
+}
+.wrap2 .wrap2Content .wrap2Left{
+  width:557px;
+  /* height:370px; */
+  margin:31.5px 38px 0 19.5px;
+  float:left;
+}
+.wrap2 .wrap2Content .wrap2Left img{
+  width:100%;
+  height:auto !important;
+  
+}
+.wrap2 .wrap2Content .wrap2Right{
+  width:546px;
+  float:left;
+}
+.wrap2 .wrap2Content .wrap2Right h4{
+  font-family:'PingFang SC';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#000000;
+}
+.wrap2 .wrap2Content .wrap2Right h5{
+  font-family: 'PingFang SC';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#000000;
+}
+.wrap2 .wrap2Content .wrap2Right .p1{
+  font-family: 'PingFang SC';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#666666;
+  margin-top:6px;
+}
+.wrap2 .wrap2Content .wrap2Right .p2,
+.wrap2 .wrap2Content .wrap2Right .p3,
+.wrap2 .wrap2Content .wrap2Right .p4,
+.wrap2 .wrap2Content .wrap2Right .p5{
+  font-family: 'PingFang SC';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#666666;
+  text-indent:10px;
+  margin-top:4px;
+  margin-bottom:12px;
+}
+.wrap2 .wrap2Content .wrap2Right button{
+  height: 40px;
+  width: 150px;
+  left: 0px;
+  top: 393px;
+  border-radius: 4px;
+  padding: 7px 20px 7px 20px;
+  background: #4877F0;
+  color:#fff;
+  margin-top:32px;
+  cursor:pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */    
+  transition-duration: 0.4s;
+}
+.wrap2 .wrap2Content .wrap2Right button:hover{
+  transform: scaleX(1.1,1.1);
+  -moz-transform:scale(1.1,1.1); 
+  -webkit-transform:scale(1.1,1.1); 
+  -o-transform:scale(1.1,1.1); 
+}
