@@ -9,19 +9,68 @@
     .header .navLeft ul li{
       margin-right:5%;
     }
-    .wrap2 .wrap2Content{
+    .wrapOther2{
       width:92%;
       margin:0 auto;
     }
-    .wrap2 .wrap2Content .wrap2Left{
+    .wrap1{
+      width:92%;
+      margin:0 auto;
+    }
+    .wrap2 .wrap2ContentTop .centerBg,.wrap2 .wrap2ContentBottom .centerBg,.wrap2 .wrap2ContentCenter .centerBg{
+      width:92%;
+      margin:0 auto;
+    }
+    .wrap2 .wrap2ContentTop .wrap2Left,.wrap2 .wrap2ContentCenter .wrap2Left,.wrap2 .wrap2ContentBottom .wrap2Left{
       width:80%;
       margin:0 auto;
       float:none;
     }
-    .wrap2 .wrap2Content .wrap2Right {
+    .wrap2 .wrap2ContentTop .wrap2Right,.wrap2 .wrap2ContentCenter .wrap2Right,.wrap2 .wrap2ContentBottom .wrap2Right{
       width:72%;
       margin:20px auto 0;
       float: none;
+    }
+    .wrap2 .wrapContentList{
+      width:92%;
+      margin:46px auto 0;
+    }
+    .wrap2 ul li{
+      margin-bottom:15px;
+    }
+    .wrap3 .centerBg{
+      width:92%;
+      margin:0 auto;
+    }
+    .wrap3 ul li{
+      width:48%;
+      margin-right:2%;
+    }
+    .wrap3 ul li .p1, .wrap3 ul li .p2, .wrap3 ul li .p3{
+      width:82%;
+    }
+    .wrap5 .centerBg{
+      width:92%;
+      margin:0 auto;
+    }
+    .wrap5 ul li{
+      width:19.31%;
+      margin-right:0.8%;
+    }
+    .wrap6 .centerBg{
+      width:92%;
+      margin:0 auto;
+    }
+    .wrap6 ul li{
+      width:30.58%;
+      margin-right:0.8%;
+    }
+    .footer .centerBg .footerTop{
+      width:92%;
+      margin:0 auto;
+    }
+    .footer .centerBg .footerTop .codeList{
+      margin-left: 200px;
     }
 }
 
